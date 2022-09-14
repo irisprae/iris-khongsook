@@ -143,11 +143,18 @@ a:link {
 
 .about-body img {
     height: 20px;
+
+}
+.portrait {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .portrait img {
-    width: 376px;
-    height: 456px;
-    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .projects {
@@ -243,8 +250,8 @@ a:link {
 
 .moreinfo {
     display: flex;
-    flex
 }
+
 .resume {
     margin-top: 20px;
     margin-bottom: 30px;
